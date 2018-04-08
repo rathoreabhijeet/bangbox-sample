@@ -1,0 +1,14 @@
+@import '../../css/variables.scss';
+
+.SliderItemPrice{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background: white;
+    box-shadow: 2px 2px 10px #444;
+    min-width: 40px;
+    padding: 8px;
+    color: $black;
+    font-size: 14px;
+    font-weight: 400;
+}

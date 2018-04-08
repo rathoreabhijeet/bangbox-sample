@@ -1,0 +1,15 @@
+@import '../../css/variables.scss';
+
+.slider {
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  padding: 25px 0 25px 0;
+  box-sizing: border-box;
+}
+.hrz-scroll{
+  display: flex;
+  // height: calc(18vw + 20px);
+  overflow-x: scroll;
+  align-items: center;
+}

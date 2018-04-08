@@ -1,0 +1,15 @@
+@import '../../css/variables.scss';
+
+.header{
+  position: fixed;
+  background: transparent;
+  font-size: 18px;
+  color: $white;
+  height:80px;
+  font-weight: 200;
+  width: 100%;
+  box-sizing: border-box;
+}
+.menuIcon{
+  font-size: 32px;
+}

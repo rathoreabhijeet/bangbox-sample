@@ -1,0 +1,84 @@
+/* Colors */
+$black: #333;
+$blue: #2a99fe;
+$white: #f1f1f1;
+$gray: #aaa;
+
+.flex{
+    display: flex;
+}
+.flex-1{
+    flex: 1;
+}
+.flex-2{
+    flex: 2;
+}
+.flex-3{
+    flex: 3;
+}
+.flex-4{
+    flex: 4;
+}
+.flex-5{
+    flex: 5;
+}
+.flex-6{
+    flex: 6;
+}
+.flex-7{
+    flex: 7;
+}
+.flex-8{
+    flex: 8;
+}
+.flex-9{
+    flex: 9;
+}
+.flex-10{
+    flex: 10;
+}
+.flex-11{
+    flex: 11;
+}
+.flex-12{
+    flex: 12;
+}
+
+.flex-end{
+    justify-content: flex-end
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+.light{
+    color: white;
+}
+.padding-10{
+    padding: 10px;
+}
+.padding-15{
+    padding: 15px;
+}
+.padding-20{
+    padding: 20px;
+}
+.align-items-center{
+    align-items: center;
+}
+::-webkit-scrollbar { 
+    display: none; 
+}
+.thin{
+    font-weight: 100;
+}
+.padding-left-35{
+    padding-left: 35px;
+}
+.full-bg{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }

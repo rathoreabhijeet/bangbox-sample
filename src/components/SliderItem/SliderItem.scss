@@ -1,0 +1,24 @@
+@import '../../css/variables.scss';
+
+.sliderItem {
+  width: 30vw;
+  height: 18vw;
+  background: rgba(0,0,0,0.5);
+  margin: 50px 10px;
+  display: flex;
+  flex-shrink: 0;
+  position: relative;
+  box-shadow: 2px 2px 17px 0px rgba(0,0,0,0.3);
+}
+.sliderItem:hover {
+  box-shadow: 0px 0px 50px #000000;
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.1);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.1);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.1);
+    transition: all 200ms ease-in;
+    transform: scale(1.1);
+}
