@@ -1,0 +1,9 @@
+@import '../../css/variables.scss';
+
+.gallery-title{
+  position: absolute;
+  top: 120px;
+  left: 10%;
+  max-height: calc(100vh - 120px);
+  overflow: scroll;
+}

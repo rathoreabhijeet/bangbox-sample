@@ -22,8 +22,8 @@ export class SliderTitle extends Component {
   render() {
     return (
       <div className="sliderTitle padding-left-35">
-        <div className="title">Skin Diamond</div>
-        <div className="menu thin">All videos <Md.MdKeyboardArrowDown /></div>
+        <div className="title">{this.props.text}</div>
+        {this.props.rightMenu && <div className="menu thin">All videos <Md.MdKeyboardArrowDown /></div>}
       </div>
     );
   }

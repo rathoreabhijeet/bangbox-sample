@@ -7,6 +7,8 @@ import thunk from 'redux-thunk';
 import createLogger from 'redux-logger';
 import posts from './reducers';
 import routes from './routes';
+require('velocity-animate');
+require('velocity-animate/velocity.ui');
 
 // This allows us to use Redux dev tools.
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose; // eslint-disable-line

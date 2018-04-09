@@ -1,7 +1,7 @@
 {
-  "name": "bangbox-sample-repo",
+  "name": "react-redux-boilerplate",
   "version": "0.0.1",
-  "description": "Bangbox sample repo",
+  "description": "React Redux Boilerplate",
   "main": "src/index.js",
   "scripts": {
     "lintJS": "eslint --fix ./src",
@@ -11,7 +11,7 @@
     "build": "webpack --config ./webpack.config.prod.js",
     "server": "npm run build && cross-env NODE_ENV=production babel-node ./server.js"
   },
-  "author": "Abhijeet Rathore",
+  "author": "John Hannah",
   "license": "MIT",
   "dependencies": {
     "axios": "0.15.1",
@@ -31,7 +31,8 @@
     "redux": "3.6.0",
     "redux-logger": "2.7.0",
     "redux-thunk": "2.1.0",
-    "sinon": "1.17.6"
+    "sinon": "1.17.6",
+    "velocity-react": "^1.3.3"
   },
   "devDependencies": {
     "autoprefixer": "6.3.7",
@@ -46,7 +47,7 @@
     "babel-preset-stage-0": "6.5.0",
     "clean-webpack-plugin": "0.1.13",
     "copy-webpack-plugin": "3.0.1",
-    "cross-env": "2.0.0",
+    "cross-env": "^5.1.4",
     "css-loader": "^0.23.1",
     "css-mqpacker": "5.0.1",
     "csswring": "5.1.0",
@@ -79,5 +80,9 @@
     "webpack": "^1.13.1",
     "webpack-dev-middleware": "1.6.1",
     "webpack-hot-middleware": "2.12.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Lullabot/React-Redux-Boilerplate"
   }
 }

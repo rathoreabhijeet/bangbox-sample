@@ -7,9 +7,112 @@
   padding: 25px 0 25px 0;
   box-sizing: border-box;
 }
+.left-button-style{
+   opacity: 0;
+    width: 70px;
+    height: 20vw;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 100;
+    border-radius: 0px 50px 50px 0px;
+    top: 60px;
+}
+.right-button-style{
+  opacity: 0;
+    right: 0px!important;
+    width: 70px;
+    height: 20vw;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 100;
+    border-radius: 50px 0px 0px 50px;
+    top: 60px;
+}
 .hrz-scroll{
   display: flex;
-  // height: calc(18vw + 20px);
   overflow-x: scroll;
   align-items: center;
+}
+@media(min-width : 500px) and (max-width : 800px){
+  .left-button-style{
+    width: 70px;
+    height: 30vw;
+    top: 67px;
+}
+.right-button-style{
+    width: 70px;
+    height: 30vw;
+    top: 67px;
+}
+}
+ @media(max-width : 500px) {
+   .left-button-style{
+    width: 70px;
+    height: 210px;
+    top: 64.5px;
+}
+.right-button-style{
+    width: 70px;
+    height: 210px;
+    top: 64.5px;
+}
+}
+/* Small Devices, Tablets */
+@media(min-width : 801px) and (max-width : 1100px){
+  .left-button-style{
+    width: 70px;
+    height: 24vw;
+        top: 66px;
+
+}
+.right-button-style{
+    width: 70px;
+    height: 24vw;
+       top: 66px;
+}
+}
+/* Medium Devices, Desktops */
+@media(min-width : 1101px) and (max-width : 1400px){
+  .left-button-style{
+    width: 70px;
+        height: 19.4vw;
+    top: 66px;
+}
+.right-button-style{
+    width: 70px;
+        height: 19.4vw;
+    top: 66px;
+}
+}
+/* Large Devices, Wide Screens */
+@media(min-width : 1401px){
+  .left-button-style{
+    width: 70px;
+    height: 20vw;
+    top: 60px;
+}
+.right-button-style{
+    width: 70px;
+    height: 20vw;
+    top: 60px;
+}
+}
+.large-font-size{
+  font-size: 3em;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  cursor: pointer;
+}
+.large-font-size:hover{
+  font-size: 4em;
+}
+.left-button-style:hover{
+   opacity: 1;
+}
+.right-button-style:hover{
+   opacity: 1;
 }

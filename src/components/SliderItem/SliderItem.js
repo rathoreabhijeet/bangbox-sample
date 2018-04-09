@@ -19,7 +19,7 @@ export class SliderItem extends Component {
 
   render() {
     return (
-      <div className={'sliderItem full-bg'} style={{ 'background-image': `url(../../assets/${this.props.photo.photo}.jpg)` }}>
+      <div className={`sliderItem full-bg ${this.props.type == 'vertical' ? '' : 'margin-top-50'} ${this.props.type == 'vertical' ? '' : 'margin-bottom-50'}`} style={{ 'background-image': `url(../../assets/${this.props.photo.photo}.jpg)` }}>
         <SliderItemPrice price={this.props.photo.price} />
         <SliderItemTitle title={this.props.photo.title} />
       </div>

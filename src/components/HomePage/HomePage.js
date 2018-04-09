@@ -64,8 +64,8 @@ export class HomePage extends Component {
     return (
       <div className="homepage flex flex-1 light">
         <Header />
-        <Content />
-        <Slider photos={this.gallery}>CONTENT</Slider>
+        <Content photo="model1"/>
+        <Slider photos={this.gallery} header="Top Performers"></Slider>
 
         {/*
 

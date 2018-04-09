@@ -1,6 +1,6 @@
 import api from '../lib/api';
 
-export const REQUEST_POSTS = 'REQUEST_POSTS';
+export const SET_CURRENT_PAGE = 'SET_CURRENT_PAGE';
 export const RECEIVE_POSTS = 'RECEIVE_POSTS';
 export const REQUEST_POST = 'REQUEST_POST';
 export const RECEIVE_POST = 'RECEIVE_POST';

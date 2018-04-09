@@ -17,7 +17,7 @@ export class Content extends Component {
 
   render() {
     return (
-      <div className={'flex flex-1 full-bg content-bg'} />
+      <div className={'flex flex-1 full-bg content-bg'} style={{'background-image':'url(../../assets/'+this.props.photo+'.jpg)'}}/>
     );
   }
 }
